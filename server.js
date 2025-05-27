@@ -5,7 +5,7 @@ const cors = require("cors");
 const errorHandler = require("./middlewares/errorMiddleware");
 const authRoutes = require("./routes/authRoutes");
 const taskRoutes = require("./routes/taskRoutes");
-const allowedOrigin = 'http://localhost:5173';
+const allowedOrigin = ['http://localhost:5173',"http://13.201.77.110"];
 
 const app = express();
 app.use(express.json());
