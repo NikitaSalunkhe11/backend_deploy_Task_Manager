@@ -36,7 +36,7 @@ jobs:
             cd ~/nodejs-app
 
             # Clone your repo into this folder
-            git clone https://github.com/NikitaSalunkhe11/deploy_nodeJS_app.git . || (git fetch origin && git reset --hard origin/main)
+            git clone https://github.com/NikitaSalunkhe11/backend_deploy_Task_Manager.git . || (git fetch origin && git reset --hard origin/main)
 
             # Create .env file
             cat > .env << EOF
